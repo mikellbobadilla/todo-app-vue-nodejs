@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;700&family=Tilt+Neon&display=swap');
+
+:root {
+  --color-dark: #181818;
+  --color-white: #ffffff;
+  --shantel-sans: 'Shantell Sans', cursive;
+  --tilt-neon: 'Tilt Neon', cursive;
+  --success-color: #41b883;
+  --danger-color: #e06c75;
+  --warning-color: #e5c07b;
+  --info-color: #61afef;
+  --black-color: #06120D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  font-family: var(--tilt-neon);
+}
+
+.main{
+  padding: 20px;
+}
+
+.row{
+  margin: 10px 0 ;
+}
+
+
+.card-title{
+  font-family: var(--shantel-sans);
+}
+
+.card-status{
+  color: var(--warning-color);
+}
+
+.btn{
+  color: var(--color-white);
+  font-family: var(--tilt-neon);
+  transition: all .5s ease;
+}
+
+.btn-delete{
+  background-color: var(--danger-color);
+}
+
+.btn-delete:hover{
+  background-color: transparent;
+  border-color: var(--danger-color);
+  color: var(--danger-color);
+}
+
+.btn-update{
+  background-color: var(--warning-color);
+}
+
+.btn-update:hover{
+  background-color: transparent;
+  border-color: var(--warning-color);
+  color: var(--warning-color);
+}
+
+.spinner-border{
+  color: var(--success-color);
+}
